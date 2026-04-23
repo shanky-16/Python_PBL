@@ -10,11 +10,11 @@ Dataset → EDA → Preprocessing → Models → Evaluation
 
 ## Phases
 
-* Phase 1: Dataset creation (synthetic data)
-* Phase 2: EDA (visualization, correlation, outliers)
-* Phase 3: Preprocessing (encoding, scaling, train-test split)
-* Phase 4: Models (Linear Regression, Ridge, Lasso)
-* Phase 5: Evaluation (R², RMSE, best model selection)
+* : Dataset creation (synthetic data)
+* : EDA (visualization, correlation, outliers)
+* : Preprocessing (encoding, scaling, train-test split)
+* : Models (Linear Regression, Ridge, Lasso)
+* : Evaluation (R², RMSE, best model selection)
 
 ## Tools
 
