@@ -28,6 +28,4 @@ Best model selected based on highest R² and lowest RMSE.
 
 Regression models can effectively predict salary based on multiple features.
 
-## Author
 
-Shashank
