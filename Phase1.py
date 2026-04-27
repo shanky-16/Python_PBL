@@ -15,6 +15,9 @@ print(data.describe())
 print(data.isnull().sum())
 data.fillna(data.mean(numeric_only=True), inplace=True)
 
+#Verify cleaning
+print(df.isnull().sum())
+
 #Feature Distributions
 data.hist(figsize=(15,10), bins=15)
 plt.suptitle("Feature Distributions")
