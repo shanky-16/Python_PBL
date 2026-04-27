@@ -27,6 +27,10 @@ data = pd.DataFrame({
     "job_satisfaction": np.random.randint(1, 6, n)
 })
 
+data.loc[np.random.choice(data.index, 5), 'age'] = np.nan
+data.loc[np.random.choice(data.index, 5), 'years_experience'] = np.nan
+data.loc[np.random.choice(data.index, 5), 'salary'] = np.nan
+
 data["salary"] = (
     data["years_experience"] * 4000 +
     data["performance_rating"] * 3000 +
