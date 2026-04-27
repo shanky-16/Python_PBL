@@ -16,6 +16,8 @@ print(data.isnull().sum())
 data.fillna(data.mean(numeric_only=True), inplace=True)
 
 #Verify cleaning
+print("\n")
+print("After cleaning")
 print(data.isnull().sum())
 
 #Feature Distributions
